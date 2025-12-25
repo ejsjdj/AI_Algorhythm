@@ -32,6 +32,12 @@ kmeans = cluster.KMeans(n_clusters=2)
 kmeans.fit(dataset)
 ```
 
+```python
+labels = kmeans.label_
+centers = kmeans.cluster_center_
+print(label)
+```
+
 **결과:**
 ```
 /usr/local/lib/python3.10/dist-packages/sklearn/cluster/_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
